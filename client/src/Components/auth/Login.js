@@ -68,18 +68,21 @@ export default class LoginUser extends Component {
 
   render() {
     return (
-      <div class="back-image">
+      //<div class="back-image">
       <div className = "login">
+      <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628622049/logo-transparent_aamv79.png' alt="" className="logo"/>
+
     
         <form onSubmit={this.handleSubmit}>
           {this.state.error && <p className="error">{this.state.error}</p>}
-
+<h1>SIGN IN</h1>
           <p>
             <label>
-              <em>Username</em>
+              <em>Email</em>
               <input
                 type="text"
                 name="username"
+                placeholder="yourmail@domain.com"
                 value={this.state.username}
                 onChange={this.handleChange}
               />
@@ -92,15 +95,24 @@ export default class LoginUser extends Component {
               <input
                 type="password"
                 name="password"
+                placeholder="Password"
                 value={this.state.password}
                 onChange={this.handleChange}
               />
+              <p>Forgot password</p>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+
             </label>
           </p>
-          <button>Se connecter</button>
+          <button className="log">Login</button>
+          <div></div>
+         
         </form>
       </div>
-      </div>
+      //</div>
     );
   }
 }
