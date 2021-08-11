@@ -12,7 +12,7 @@ gamesRoutes.get("/", (req, res, next) => {
     .populate("field")
     .populate("organisator")
     .then((AllGamesFromDb) => {
-      console.log("AllGamesFromDb", AllGamesFromDb);
+      // console.log("AllGamesFromDb", AllGamesFromDb);
       res.json(AllGamesFromDb);
     })
     .catch((err) => console.log(err));

@@ -112,7 +112,12 @@ body {
   font-size: 10px;
 }
 
-.buttonCard button{
-  position:absolute;
-  top: 500px; 
+.buttonCard button {
+  position: absolute;
+  top: 99%; left:70%;
+  transform: translate(-99%, -70%);
+}
+
+.buttonCard {
+  position: relative;
 }

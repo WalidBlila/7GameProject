@@ -10,3 +10,8 @@
     color: white;
     
   }
+  .profile .section2 {
+    display:flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+  }

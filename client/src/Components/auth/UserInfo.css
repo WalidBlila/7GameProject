@@ -1,0 +1,62 @@
+.userInfo {
+  height: 290px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FABB76;
+  border-radius: 10px;
+}
+
+.userInfo .mainInformation, .userInfo .mainActivity {
+  margin: 10px;
+}
+
+.userInfo .mainInformation h1, .userInfo .mainActivity h1 {
+  color: #673389;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.userInfo .mainInformation h2, .userInfo .mainActivity h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.userInfo .mainInformation p, .userInfo .mainActivity p {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.userInfo .info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.userInfo .info .block {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfo .edit {
+  display: flex;
+  align-self: flex-end;
+  height: 10px;
+}
+
+.userInfo .edit a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.userInfo .block1  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 260px;
+
+}
