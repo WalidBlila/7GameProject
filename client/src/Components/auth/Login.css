@@ -1,6 +1,40 @@
 
 * {
   box-sizing: border-box;
+  color: #0a0a0a;
+}
+
+.green {
+  background: #fafafa;
+  background-size:auto 150px;
+
+  color: #fff;
+
+  display:flex;
+
+
+  margin-left:auto;
+  /* width: 2500px; */
+
+  width: 100%;  
+  height: 190%;  
+  object-fit: cover; 
+
+}
+
+.terrain {
+  color: #fff;
+
+  display:flex;
+
+  margin-left:auto;
+ 
+
+  width: 40%;  
+  height: 40%;  
+  object-fit: cover; 
+ 
+ 
 }
 
 
@@ -34,7 +68,7 @@ h1 {
  
   padding:10px 13px;
   width: 80vw;
-  border-bottom:1px solid rgb(219, 219, 219);
+  border-bottom:1px solid rgb(14, 13, 13);
   box-shadow: 0px 1px 8px rgba(0, 0, 0,0.1);
   border-radius: 5px;
   margin-top:0.3em 0
@@ -43,7 +77,7 @@ h1 {
 .login label{
   display:flex;
   flex-direction: column;
-  color:#0a0a0a;
+  color:#e7e1e1;
   text-align: start;
   font: bold;
   
@@ -51,11 +85,17 @@ h1 {
 
 .log {
 background-color: purple;
-color: white;
+color: rgb(255, 255, 255);
 -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 width: 27%;
+}
+
+.orange {
+  text-align: center;
+  align-items: center;
+
 }
 
 
@@ -71,3 +111,4 @@ width: 27%;
     width: 25vw
   }
 }
+

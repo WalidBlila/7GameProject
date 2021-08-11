@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { login } from "./auth-service";
-import axios from "axios";
-import { Link, Redirect } from "react-router-dom";
+// import axios from "axios";
+// import { Link, Redirect } from "react-router-dom";
 import "./Login.css";
 
 
@@ -68,7 +68,16 @@ export default class LoginUser extends Component {
 
   render() {
     return (
-      //<div class="back-image">
+
+      <section class="green">
+      <div className="text">
+      <h1 className="orange">Welcome,</h1>
+              <h1 className="orange">Basketball player friends</h1>
+              <h1 className="orange">Dont'have an account</h1>
+              <button>SIGN UP</button>
+             
+
+      </div>
       <div className = "login">
       <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628622049/logo-transparent_aamv79.png' alt="" className="logo"/>
 
@@ -102,8 +111,6 @@ export default class LoginUser extends Component {
               <p>Forgot password</p>
               <br></br>
               <br></br>
-              <br></br>
-              <br></br>
 
             </label>
           </p>
@@ -112,7 +119,16 @@ export default class LoginUser extends Component {
          
         </form>
       </div>
-      //</div>
+
+      <section>
+       <div>
+       
+       </div>
+     </section>
+     <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628672754/terra_arybys.png' alt="" className="terrain"/>
+      </section>
+
+
     );
   }
 }
