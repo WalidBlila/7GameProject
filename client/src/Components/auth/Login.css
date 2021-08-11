@@ -1,147 +1,119 @@
 * {
-  color: black;
- 
+box-sizing: border-box;
+color: #0a0a0a;
+
 }
 
-/*SECTION 1*/
+/*BLOC 1*/
 .green {
-  background: #ca0707;
-  width: 80%; 
-  
+background: #fafafa;
+color: #fff;
+display:flex;
+margin:0;
 
 }
 
 h1 {
-  text-align: center;
+text-align: center;
 
 }
 
 .logo{
-  width: 500px;
+width: 500px;
 
 }
 
-
 .login{
-  text-align: center;
-  margin: 10em 3em ;
-  font-size: 20px;
+text-align: center;
+margin: 10em ;
+font-size:35px;
 
 }
 
 .login form{
-  align-items: center;
-  display:flex;
-  flex-direction: column; 
+align-items: center;
+display:flex;
+flex-direction: column; 
   
 }
 
 .login input{ 
-  padding:10px 13px;
-  width: 80vw;
-  border-bottom:1px solid rgb(14, 13, 13);
-  box-shadow: 0px 1px 8px rgba(0, 0, 0,0.1);
-  border-radius: 5px;
-  margin-top:0.3em 0
+padding:10px 13px;
+width: 80vw;
+border-bottom:1px solid rgb(14, 13, 13);
+box-shadow: 0px 1px 8px rgba(0, 0, 0,0.1);
+border-radius: 5px;
+margin-top:0.3em 0
 
 }
 
 .login label{
-  display:flex;
-  flex-direction: column;
-  color:#e7e1e1;
-  text-align: start;
-  font: bold;
-  
+display:flex;
+flex-direction: column;
+text-align: start;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+    
 }
 
 .log {
 background-color: purple;
 color: rgb(255, 255, 255);
 -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-
-width: 325px;
-height: 50px;
-left: 265px;
-top: 548px;
-background: #673389;
-border-radius: 80px;
-font-size: 22px;
-font-style: bold;
-
-}
-
-.sign {
-  background-color: purple;
-color: rgb(255, 255, 255);
--moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-width: 325px;
-height: 50px;
-left: 265px;
-top: 548px;
-background: #673389;
-border-radius: 80px;
-font-size: 22px;
-font-style: bold;
-  
-}
-
-/*DON'T HAVE ACCOUNT*/
-.orange {
-background-image: url('https://res.cloudinary.com/dro81vxlb/image/upload/v1628672754/terra_arybys.png');
-background-size: cover;
-width: 50%;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+width: 70%;
+font-family: Raleway;
 font-style: normal;
-text-align: center;
-letter-spacing: 0.02em;
-padding: auto;
-
-
+font-weight: 600;
+font-size: 18px;
 }
 
-.butsign {
-
-  -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    color:yellow;
-    background-color: transparent;
-   
-}
-
-/*FORGOT PASSWORD*/
 .forgot {
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 18px;
-align-items: right;
+display: flex;
+align-items: center;
 letter-spacing: 0.02em;
 text-decoration-line: underline;
-
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
 
 }
 
-/*SECTION 2*/
+.account {
+color: black; 
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+}
+
+/*BLOC 2*/
 .terrain {
-  color: #fff;
-  display:flex;
-  margin-left:auto;
-  object-fit: cover; 
+color: #fff;
+display:flex;
+margin-left:auto;
+width: 100vh;  
+height: 100vh;
+object-fit: cover; 
+width: 100%;  
+height: 190%; 
  
 }
 
+
 @media (min-width: 1225px) {
   .login{
-    margin-top: 9em
+  margin-top: 9em
     
   }
   .login input{
-    width: 25vw
+  width: 25vw
+
   }
 }
-
