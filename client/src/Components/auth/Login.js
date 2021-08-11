@@ -69,24 +69,15 @@ export default class LoginUser extends Component {
   render() {
     return (
 
-      <section class="green">
-      <div className="text">
-      <h1 className="orange">Welcome,</h1>
-              <h1 className="orange">Basketball player friends</h1>
-              <h1 className="orange">Dont'have an account</h1>
-              <button>SIGN UP</button>
-             
-
-      </div>
+      <div className="green">
       <div className = "login">
       <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628622049/logo-transparent_aamv79.png' alt="" className="logo"/>
-
-    
+      
         <form onSubmit={this.handleSubmit}>
           {this.state.error && <p className="error">{this.state.error}</p>}
-<h1>SIGN IN</h1>
+          <h1>SIGN IN</h1>
           <p>
-            <label>
+            <label className ="toto">
               <em>Email</em>
               <input
                 type="text"
@@ -108,25 +99,35 @@ export default class LoginUser extends Component {
                 value={this.state.password}
                 onChange={this.handleChange}
               />
-              <p>Forgot password</p>
+              <p className="forgot">Forgot password</p>
               <br></br>
               <br></br>
 
             </label>
           </p>
           <button className="log">Login</button>
-          <div></div>
+        
          
         </form>
       </div>
+      
 
-      <section>
-       <div>
-       
-       </div>
-     </section>
-     <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628672754/terra_arybys.png' alt="" className="terrain"/>
-      </section>
+      <div className="orange">
+      <h1 >Welcome,</h1>
+     
+             <h1> Basketball player friends</h1>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              
+             <h1> Dont'have an account</h1>
+              <button className="butsign">SIGN UP</button>  
+        </div> 
+
+      </div>
+    
 
 
     );

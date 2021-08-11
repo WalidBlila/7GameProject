@@ -73,11 +73,12 @@ export default class Signup extends React.Component {
 
   render() {
     return (
+
+      <section class="green">
+      <div className='signup'>
       
-      <div className="form">
-        
-     
-        <h1>Sign up</h1>
+      <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628622049/logo-transparent_aamv79.png' alt="" className="logo"/>
+        <h1>SIGN UP</h1>
         <form onSubmit={this.handleFormSubmit}>
           {this.state.error && (
             <p className="error">
@@ -130,9 +131,25 @@ export default class Signup extends React.Component {
               <em>Avatar</em>     </label>
             <input type="file" onChange={(e) => this.fileChange(e)} />
           </p>
-          <button>Submit</button>
+          <button className="log">Submit</button>
         </form>
+
+
       </div>
+
+      <section>
+       <div>
+       
+       </div>
+     </section>
+     <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628672754/terra_arybys.png' alt="" className="terrain"/>
+      </section>
+
+      
+
+      
+
+
     
     
     )
