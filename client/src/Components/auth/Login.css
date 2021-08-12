@@ -1,32 +1,25 @@
 * {
-  color: black;
+color: black;
  
 }
 
 /*SECTION 1*/
 .green {
-  background: #ca0707;
-  width: 80%; 
-  margin: 0;
+background: #f1f1f1;
+width: 80%; 
+margin: 0;
   
-
-}
-
-h1 {
-  text-align: center;
-
 }
 
 .logo{
-  width: 500px;
+width: 500px;
 
 }
 
-
 .login{
-  text-align: center;
-  margin: 10em 3em ;
-  font-size: 20px;
+text-align: center;
+margin:30em ;
+font-size: 20px;
 
 }
 
@@ -91,22 +84,9 @@ font-style: bold;
   
 }
 
-/*DON'T HAVE ACCOUNT*/
-.orange {
-background-image: url('https://res.cloudinary.com/dro81vxlb/image/upload/v1628672754/terra_arybys.png');
-background-size: cover;
-width: 50%;
-font-style: normal;
-text-align: center;
-letter-spacing: 0.02em;
-padding: auto;
-
-
-}
 
 .butsign {
-
-  -moz-border-radius: 10px;
+   -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     color:yellow;
@@ -129,11 +109,17 @@ text-decoration-line: underline;
 
 /*SECTION 2*/
 .terrain {
-  color: #fff;
-  display:flex;
-  margin-left:auto;
-  object-fit: cover; 
-  margin: 0;
+color: #fff;
+
+display:flex;
+
+margin:0;
+ 
+height: 100%; 
+width: 500%; 
+
+ 
+ 
  
 }
 
