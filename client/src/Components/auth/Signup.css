@@ -1,11 +1,16 @@
+
 /*BLOC 1*/
 .green {
-background: #fafafa;
 display:flex;
-margin-left:auto;
 width: 100%;  
 height: 190%;  
 object-fit: cover; 
+padding: 0px 0px;
+margin: 0;
+background-image: url("https://res.cloudinary.com/dro81vxlb/image/upload/v1628789356/terrainsignup_xroefx.png");
+background-repeat: no-repeat;
+background-position: right;
+
 
 }
 
@@ -15,10 +20,10 @@ color: rgb(255, 255, 255);
 border-radius: 10px;
 width: 27%;
 
-	}
+}
 
 .signup{
-margin: 7.5em 1.5em 0;
+margin: 25em;
 font-size:0.9em;
 text-align: center;
 	
@@ -40,17 +45,6 @@ color:#cfa5a1;
 text-align: start;
 
 }
-
-/*BLOC 2*/
-.terrain {
-color: #fff;
-display:flex;
-margin-left:auto;
-width: 40%;  
-height: 40%;  
-object-fit: cover;  
-   
-  }
 
 
 @media (min-width: 1225px) {

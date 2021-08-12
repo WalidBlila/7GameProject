@@ -73,8 +73,7 @@ export default class Signup extends React.Component {
 
   render() {
     return (
-
-      <section class="green">
+      <div className="green">
       <div className='signup'>
       
       <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628768443/logo_vf_mwvddj.png' alt="" className="logo"/>
@@ -133,23 +132,12 @@ export default class Signup extends React.Component {
           </p>
           <button className="log">I create my account</button>
         </form>
-
-
+      </div>
       </div>
 
-      <section>
-       <div>
-       
-       </div>
-     </section>
-     <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628672754/terra_arybys.png' alt="" className="terrain"/>
-      </section>
-
       
 
-      
-
-
+    
     
     
     )
