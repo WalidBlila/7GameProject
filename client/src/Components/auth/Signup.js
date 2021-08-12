@@ -86,37 +86,37 @@ export default class Signup extends React.Component {
           <p>
             <label>
               <em>Username</em>   </label>
-            <input type="text" name="username" value={this.state.username} onChange={(e) => this.handleChange(e)} />
+            <input type="text" name="username" classnName="sousbloc1" value={this.state.username} onChange={(e) => this.handleChange(e)} />
 
           </p>
           <p>
             <label>
               <em>Password</em> </label>
-            <input type="password" name="password" value={this.state.password} onChange={(e) => this.handleChange(e)} />
+            <input type="password" name="password" classnName="sousbloc3" value={this.state.password} onChange={(e) => this.handleChange(e)} />
 
           </p>
           <p>
             <label>
               <em>Email</em>      </label>
-            <input type="text" name="email" value={this.state.email} onChange={(e) => this.handleChange(e)} />
+            <input type="text" name="email" classnName="sousbloc1" value={this.state.email} onChange={(e) => this.handleChange(e)} />
 
           </p>
           <p>
             <label>
               <em>Height</em>     </label>
-            <input type="number" name="height" value={this.state.height} onChange={(e) => this.handleChange(e)} />
+            <input type="number" name="height" classnName="sousbloc2" value={this.state.height} onChange={(e) => this.handleChange(e)} />
           </p>
 
           <p>
             <label>
               <em>Age</em>  </label>
-            <input type="number" name="age" value={this.state.age} onChange={(e) => this.handleChange(e)} />
+            <input type="number" name="age" classnName="sousbloc2" value={this.state.age} onChange={(e) => this.handleChange(e)} />
           </p>
 
           <p>
-            <label>
+            <label >
               <em>Level</em>      </label>
-            <select name="level" value={this.state.level} onChange={(e) => this.handleChange(e)}>
+            <select name="level" classnName="sousbloc3" value={this.state.level} onChange={(e) => this.handleChange(e)}>
               <option value="Débutant">Débutant</option>
               <option value="Amateur">Amateur</option>
               <option value="Confirmé">Confirmé</option>
@@ -135,10 +135,6 @@ export default class Signup extends React.Component {
       </div>
       </div>
 
-      
-
-    
-    
     
     )
   }

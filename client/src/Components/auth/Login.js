@@ -95,9 +95,8 @@ export default class LoginUser extends Component {
           <a href="/signup" className="log2" type="submit">Sign up</a>
         </form>
       </div>
-
-     
       </div>
+      
     );
   }
 }
