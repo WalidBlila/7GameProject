@@ -68,8 +68,8 @@ export default class LoginUser extends Component {
 
   render() {
     return (
-      <div class="green">
-      <div className = "login">
+      <div className="green">
+      <div className="login">
         <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628622049/logo-transparent_aamv79.png' alt="" className="logo" />
     
         <form onSubmit={this.handleSubmit}>
@@ -85,18 +85,18 @@ export default class LoginUser extends Component {
           <p>
             <label>
               <em>Password</em>
-              <input
-                type="password" name="password" value={this.state.password} onChange={this.handleChange}/>
+              <input type="password" name="password" value={this.state.password} onChange={this.handleChange}/>
                 <p className="forgot">Forgot password</p>
             </label>
           </p>
+
           <button className="log" type="submit">Login</button>
-          <button className="log" type="submit">Sign up</button>
+          <a href="/signup" className="log2" type="submit">Sign up</a>
         </form>
       </div>
 
-      <div>
-      <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628698874/terr_cwpsq2.png' alt="" className="terrain" />
+      <div className="terrain">
+      <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628698874/terr_cwpsq2.png' alt=""/>
       </div>
 
       </div>

@@ -6,7 +6,7 @@ color: black;
 /*SECTION 1*/
 .green {
 background: #f1f1f1;
-width: 80%; 
+width: 73%; 
 margin: 0;
   
 }
@@ -24,38 +24,35 @@ font-size: 20px;
 }
 
 .login form{
-  align-items: center;
-  display:flex;
-  flex-direction: column; 
+align-items: center;
+display:flex;
+flex-direction: column; 
   
 }
 
 .login input{ 
-  padding:10px 13px;
-  width: 80vw;
-  border-bottom:1px solid rgb(14, 13, 13);
-  box-shadow: 0px 1px 8px rgba(0, 0, 0,0.1);
-  border-radius: 5px;
-  margin-top:0.3em 0
+padding:10px 13px;
+width: 80vw;
+border-bottom:1px solid rgb(14, 13, 13);
+box-shadow: 0px 1px 8px rgba(0, 0, 0,0.1);
+border-radius: 5px;
+margin-top:0.3em 0
 
 }
 
 .login label{
-  display:flex;
-  flex-direction: column;
-  color:#e7e1e1;
-  text-align: start;
-  font: bold;
+display:flex;
+flex-direction: column;
+color:#e7e1e1;
+text-align: start;
+font: bold;
   
 }
 
 .log {
 background-color: purple;
 color: rgb(255, 255, 255);
--moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-
+border-radius: 10px;
 width: 325px;
 height: 50px;
 left: 265px;
@@ -64,15 +61,14 @@ background: #673389;
 border-radius: 80px;
 font-size: 22px;
 font-style: bold;
+/* margin-bottom: 2em; */
 
 }
 
-.sign {
-  background-color: purple;
+.log2 {
+background-color: purple;
 color: rgb(255, 255, 255);
--moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+border-radius: 10px;  
 width: 325px;
 height: 50px;
 left: 265px;
@@ -81,18 +77,10 @@ background: #673389;
 border-radius: 80px;
 font-size: 22px;
 font-style: bold;
+
   
-}
+  }
 
-
-.butsign {
-   -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    color:yellow;
-    background-color: transparent;
-   
-}
 
 /*FORGOT PASSWORD*/
 .forgot {
@@ -110,16 +98,12 @@ text-decoration-line: underline;
 /*SECTION 2*/
 .terrain {
 color: #fff;
-
 display:flex;
-
 margin:0;
- 
-height: 100%; 
-width: 500%; 
-
- 
- 
+height: 100vh;
+width: 100%;
+/* padding: 0px 0px 0px 0px; */
+/* float: right; */
  
 }
 
