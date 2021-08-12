@@ -13,11 +13,7 @@ margin:0;
 
 }
 
-h1 {
-text-align: center;
-
-}
-
+/*LOGO BLOC 1*/
 .logo{
 width: 500px;
 
@@ -47,6 +43,7 @@ margin-top:0.3em 0
 
 }
 
+/*EMAIL MDP*/
 .login label{
 display:flex;
 flex-direction: column;
@@ -57,18 +54,6 @@ font-size: 25px;
     
 }
 
-.log {
-background-color: purple;
-color: rgb(255, 255, 255);
--moz-border-radius: 10px;
--webkit-border-radius: 10px;
-border-radius: 10px;
-width: 70%;
-font-family: Raleway;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-}
 
 .forgot {
 display: flex;
