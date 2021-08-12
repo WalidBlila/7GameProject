@@ -77,7 +77,7 @@ export default class Signup extends React.Component {
       <section class="green">
       <div className='signup'>
       
-      <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628622049/logo-transparent_aamv79.png' alt="" className="logo"/>
+      <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628768443/logo_vf_mwvddj.png' alt="" className="logo"/>
         <h1>SIGN UP</h1>
         <form onSubmit={this.handleFormSubmit}>
           {this.state.error && (

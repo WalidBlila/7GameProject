@@ -70,11 +70,11 @@ export default class LoginUser extends Component {
     return (
       <div className="green">
       <div className="login">
-        <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628622049/logo-transparent_aamv79.png' alt="" className="logo" />
+        <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628768443/logo_vf_mwvddj.png' alt="" className="logo" />
     
         <form onSubmit={this.handleSubmit}>
           {this.state.error && <p className="error">{this.state.error}</p>}
-
+          <h1>SIGN IN</h1>
           <p>
             <label>
               <em>Username</em>
@@ -91,6 +91,7 @@ export default class LoginUser extends Component {
           </p>
 
           <button className="log" type="submit">Login</button>
+          {/* <p>Don't have an account</p> */}
           <a href="/signup" className="log2" type="submit">Sign up</a>
         </form>
       </div>
@@ -98,7 +99,6 @@ export default class LoginUser extends Component {
       <div className="terrain">
       <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628698874/terr_cwpsq2.png' alt=""/>
       </div>
-
       </div>
     );
   }

@@ -77,10 +77,8 @@ background: #673389;
 border-radius: 80px;
 font-size: 22px;
 font-style: bold;
-
   
-  }
-
+}
 
 /*FORGOT PASSWORD*/
 .forgot {
@@ -92,7 +90,6 @@ align-items: right;
 letter-spacing: 0.02em;
 text-decoration-line: underline;
 
-
 }
 
 /*SECTION 2*/
@@ -103,8 +100,7 @@ margin:0;
 height: 100vh;
 width: 100%;
 /* padding: 0px 0px 0px 0px; */
-/* float: right; */
- 
+/* float: right; */ 
 }
 
 @media (min-width: 1225px) {
