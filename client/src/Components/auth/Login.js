@@ -68,12 +68,81 @@ export default class LoginUser extends Component {
 
   render() {
     return (
+      <div className="green">
+      <div className="login">
+        <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628768443/logo_vf_mwvddj.png' alt="" className="logo" />
+    
+        <form onSubmit={this.handleSubmit}>
+          {this.state.error && <p className="error">{this.state.error}</p>}
+          <h1>SIGN IN</h1>
+          <p>
+            <label>
+              <em>Username</em>
+              <input type="text" name="username" value={this.state.username} onChange={this.handleChange}/>
+            </label>
+          </p>
 
-<section className="green">
+          <p>
+            <label>
+              <em>Password</em>
+              <input type="password" name="password" value={this.state.password} onChange={this.handleChange}/>
+                <p className="forgot">Forgot password</p>
+            </label>
+          </p>
+
+          <button className="log" type="submit">Login</button>
+          {/* <p>Don't have an account</p> */}
+          <a href="/signup" className="log2" type="submit">Sign up</a>
+        </form>
+      </div>
+
+      <div className="terrain">
+      <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628698874/terr_cwpsq2.png' alt=""/>
+      </div>
+      </div>
+    );
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <section className="green">
   <div>
   </div>
   <div className="login">
-    <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628622049/logo-transparent_aamv79.png' alt="" className="logo" />
+    <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628768443/logo_vf_mwvddj.png' alt="" className="logo" />
     <form onSubmit={this.handleSubmit}>{this.state.error &&
       <p className="error">{this.state.error}</p>}
       <h1>SIGN IN</h1>
@@ -104,6 +173,5 @@ export default class LoginUser extends Component {
     </div>
   </section>
   <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628698874/terr_cwpsq2.png' alt="" className="terrain" />
-</section>); 
-}
-}
+</section>);  */}
+

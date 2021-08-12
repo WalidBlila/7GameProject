@@ -1,39 +1,280 @@
 * {
+  color: black;
+   
+  }
+  
+  /*SECTION 1*/
+  .green {
+  background: #f1f1f1;
+  width: 73%; 
+  margin: 0;
+    
+  }
+  
+  .logo{
+  width: 500px;
+  
+  }
+  
+  .login{
+  text-align: center;
+  margin:30em ;
+  font-size: 20px;
+  
+  }
+  
+  .login form{
+  align-items: center;
+  display:flex;
+  flex-direction: column; 
+    
+  }
+  
+  .login input{ 
+  padding:10px 13px;
+  width: 80vw;
+  border-bottom:1px solid rgb(14, 13, 13);
+  box-shadow: 0px 1px 8px rgba(0, 0, 0,0.1);
+  border-radius: 5px;
+  margin-top:0.3em 0
+  
+  }
+  
+  .login label{
+  display:flex;
+  flex-direction: column;
+  color:#e7e1e1;
+  text-align: start;
+  font: bold;
+    
+  }
+  
+  .log {
+  background-color: purple;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 325px;
+  height: 50px;
+  left: 265px;
+  top: 548px;
+  background: #673389;
+  border-radius: 80px;
+  font-size: 22px;
+  font-style: bold;
+  /* margin-bottom: 2em; */
+  
+  }
+  
+  .log2 {
+  background-color: purple;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;  
+  width: 325px;
+  height: 50px;
+  left: 265px;
+  top: 548px;
+  background: #673389;
+  border-radius: 80px;
+  font-size: 22px;
+  font-style: bold;
+    
+  }
+  
+  /*FORGOT PASSWORD*/
+  .forgot {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  align-items: right;
+  letter-spacing: 0.02em;
+  text-decoration-line: underline;
+  
+  }
+  
+  /*SECTION 2*/
+  .terrain {
+  color: #fff;
+  display:flex;
+  margin:0;
+  height: 100vh;
+  width: 100%;
+  /* padding: 0px 0px 0px 0px; */
+  /* float: right; */ 
+  }
+  
+  @media (min-width: 1225px) {
+    .login{
+      margin-top: 9em
+      
+    }
+    .login input{
+      width: 25vw
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
 box-sizing: border-box;
 color: #0a0a0a;
 
 }
 
 /*BLOC 1*/
-.green {
+/* .green {
 background: #fafafa;
 color: #fff;
 display:flex;
 margin:0;
 
-}
+} */
 
 /*LOGO BLOC 1*/
-.logo{
+/* .logo{
 width: 500px;
 
-}
+} */
 
-.login{
+/* .login{
 text-align: center;
 margin: 10em ;
 font-size:35px;
 
-}
+} */
 
-.login form{
+/* .login form{
 align-items: center;
 display:flex;
 flex-direction: column; 
   
-}
+} */
 
-.login input{ 
+/* .login input{ 
 padding:10px 13px;
 width: 80vw;
 border-bottom:1px solid rgb(14, 13, 13);
@@ -41,10 +282,10 @@ box-shadow: 0px 1px 8px rgba(0, 0, 0,0.1);
 border-radius: 5px;
 margin-top:0.3em 0
 
-}
+} */
 
 /*EMAIL MDP*/
-.login label{
+/* .login label{
 display:flex;
 flex-direction: column;
 text-align: start;
@@ -52,10 +293,10 @@ font-style: normal;
 font-weight: normal;
 font-size: 25px;
     
-}
+} */
 
 
-.forgot {
+/* .forgot {
 display: flex;
 align-items: center;
 letter-spacing: 0.02em;
@@ -66,9 +307,9 @@ font-weight: normal;
 font-size: 16px;
 line-height: 18px;
 
-}
+} */
 
-.account {
+/* .account {
 color: black; 
 font-family: Raleway;
 font-style: normal;
@@ -76,10 +317,10 @@ font-weight: bold;
 font-size: 24px;
 line-height: 28px;
 
-}
+} */
 
 /*BLOC 2*/
-.terrain {
+/* .terrain {
 color: #fff;
 display:flex;
 margin-left:auto;
@@ -89,10 +330,10 @@ object-fit: cover;
 width: 100%;  
 height: 190%; 
  
-}
+} */
 
 
-@media (min-width: 1225px) {
+/* @media (min-width: 1225px) {
   .login{
   margin-top: 9em
     
@@ -101,4 +342,5 @@ height: 190%;
   width: 25vw
 
   }
-}
+}  */
+
