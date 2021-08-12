@@ -6,9 +6,13 @@ color: black;
 /*SECTION 1*/
 .green {
 background: #f1f1f1;
-width: 73%; 
+width: %; 
 margin: 0;
-  
+background-image: url("https://res.cloudinary.com/dro81vxlb/image/upload/v1628698874/terr_cwpsq2.png");
+background-repeat: no-repeat;
+background-position: right;
+padding: 0px 0px;
+
 }
 
 .logo{
@@ -18,7 +22,7 @@ width: 500px;
 
 .login{
 text-align: center;
-margin:30em ;
+margin: 20em ;
 font-size: 20px;
 
 }
@@ -61,7 +65,7 @@ background: #673389;
 border-radius: 80px;
 font-size: 22px;
 font-style: bold;
-/* margin-bottom: 2em; */
+margin-bottom: 2em;
 
 }
 
@@ -93,15 +97,18 @@ text-decoration-line: underline;
 }
 
 /*SECTION 2*/
-.terrain {
+/* .terrain {
 color: #fff;
 display:flex;
 margin:0;
 height: 100vh;
 width: 100%;
+padding:0px 10px;
+background-image: 
+/* position: right; */
 /* padding: 0px 0px 0px 0px; */
 /* float: right; */ 
-}
+
 
 @media (min-width: 1225px) {
   .login{

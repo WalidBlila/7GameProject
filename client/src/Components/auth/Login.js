@@ -96,9 +96,7 @@ export default class LoginUser extends Component {
         </form>
       </div>
 
-      <div className="terrain">
-      <img src='https://res.cloudinary.com/dro81vxlb/image/upload/v1628698874/terr_cwpsq2.png' alt=""/>
-      </div>
+     
       </div>
     );
   }
