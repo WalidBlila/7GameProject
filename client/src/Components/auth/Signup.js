@@ -130,7 +130,7 @@ export default class Signup extends React.Component {
               <em>Avatar</em>     </label>
             <input type="file" onChange={(e) => this.fileChange(e)} />
           </p>
-          <button className="log">I create my account</button>
+          <button className="log" type="submit">I create my account</button>
         </form>
       </div>
       </div>
@@ -139,4 +139,5 @@ export default class Signup extends React.Component {
     )
   }
 }
+
 
